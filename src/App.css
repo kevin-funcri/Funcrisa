@@ -1,0 +1,15 @@
+
+/*Menú principal*/
+
+.Layout ul {
+  display: flex;
+   list-style-type: none;
+   padding: 5px;
+  margin-left: 600px;
+
+}
+
+.Layout ul li{
+  background-color: blueviolet;
+  margin-left:10px
+}
