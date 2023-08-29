@@ -1,4 +1,6 @@
 import { Outlet } from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const MainLayout = () => {
   return (
@@ -13,6 +15,22 @@ const MainLayout = () => {
         </ul>
       </section>
       <Outlet/>
+      <footer className="footer">
+        <div>
+            <h2> Club Makarios</h2>
+            <div>
+                Contactos: 09213213131
+            </div>
+        </div>
+        <div>
+        <ul>
+            <li>Facebook</li>
+            <li>Linkedin</li>
+            <li>Instagram</li>
+            <li>Whatsapp</li>
+        </ul>
+        </div>
+      </footer>
     </div>
   )
 }
